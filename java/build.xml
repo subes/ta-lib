@@ -27,7 +27,7 @@
 		<copy todir="${dir.classes}" includeEmptyDirs="false">
 			<fileset dir="${dir.src}" excludes="**/*.java"/>
 		</copy>
-		<javac srcdir="${dir.src}" destdir="${dir.classes}" debug="${debug}">
+		<javac srcdir="${dir.src}" destdir="${dir.classes}" debug="${debug}" includeAntRuntime="no" target="1.8" source="1.8">
 			<classpath refid="classpath.base"/>
 		</javac>
 		<delete file="${file.jar}"/>

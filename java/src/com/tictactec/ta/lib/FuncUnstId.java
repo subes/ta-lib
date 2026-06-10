@@ -71,6 +71,7 @@ public enum FuncUnstId {
 	  /* 020 */  Rsi,
 	  /* 021 */  StochRsi,
 	  /* 022 */  T3,
+	  			 Imi,
                  All,
                  None
 };
